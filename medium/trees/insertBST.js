@@ -11,7 +11,7 @@
  * @param {number} val
  * @return {TreeNode}
  */
-var insertIntoBST = function (root, val) {
+function insertIntoBST(root, val) {
     if (!root) return new TreeNode(val);
 
     if (val > root.val) {
