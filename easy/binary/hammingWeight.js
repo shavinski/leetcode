@@ -14,9 +14,9 @@ var hammingWeight = function (n) {
 };
 
 /**
- * .toString(2) this keeps the number in base 2 also called binary which
- * is a sequence of 0's and 1's 
- * 
+    .toString(2) this keeps the number in base 2 also called binary which
+    is a sequence of 0's and 1's 
+  
     Looking from the bottom number up, we have the numbers:
 
     1 <- 2 <- 5 <- 10 <- 21 <- 42
