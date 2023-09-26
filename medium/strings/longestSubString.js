@@ -40,6 +40,7 @@ function lengthOfLongestSubstring(s) {
 
     while (right < s.length) {
         if (subString.length === 0) {
+            F
             subString += s[left];
         }
 
