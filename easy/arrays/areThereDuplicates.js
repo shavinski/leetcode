@@ -12,3 +12,7 @@ function areThereDuplicates(...args) {
     return false;
 }
 
+// not mine, cool one liner 
+function areThereDuplicates(...args) {
+    return new Set([...args]).size !== [...args].length;
+}
