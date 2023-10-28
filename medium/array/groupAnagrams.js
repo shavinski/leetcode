@@ -27,12 +27,12 @@ Logic:
 empty array to hold possible anagrams
 
 loop through strs
-    the first word 
+    the first word
         loop through first word
-            have a object 
+            have a object
             make the key the letter
             make the value the how many times it shows up
-    
+
     if the object does not exist on the array
         push it on
 
@@ -75,3 +75,5 @@ var groupAnagrams = function (strs) {
 
     return result;
 };
+
+//testing a change in file
